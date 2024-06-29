@@ -7,6 +7,7 @@ const Question = ({currentQuestion, updateUserAnswers}) => {
         selectedAnswer: '',
         isCorrect: null,
     })
+
     const onAnswer = function (pickedAnswer) {
         setAnswer({
             selectedAnswer: pickedAnswer,
